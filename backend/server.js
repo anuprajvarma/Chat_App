@@ -1,7 +1,7 @@
 const express = require('express');
 const chats = require('./data/data');
 const app = express();
-const port = 4000;
+const port = 5000;
 
 app.get('/', (req, res) => {
     res.send("hiii chat app");
@@ -17,5 +17,5 @@ app.get('/api/chat/:uid', (req, res) => {
     res.send(singleChat);
 })
 app.listen(port, () => {
-    console.log("server is started on 4000")
+    console.log("server is started on 5000")
 })
