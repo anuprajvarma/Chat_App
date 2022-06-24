@@ -38,6 +38,12 @@ const Login = () => {
             <Button colorScheme='blue' width='100%' style={{ margin: 15 }} onClick={submitHandler}>
                 Login
             </Button>
+            <Button variant='solic' colorSchema='red' width='100%' onClick={() => {
+                setEmail('guest@example.com');
+                setPassword('123456');
+            }}>
+                Login
+            </Button>
         </VStack>
     )
 }
