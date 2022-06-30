@@ -4,7 +4,7 @@
 .App {
     min-height: 100vh;
     display: flex;
-    background-image: url('./images.jpeg');
+    background-image: url('./images/img.jpeg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
